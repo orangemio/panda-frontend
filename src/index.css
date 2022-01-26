@@ -1,0 +1,47 @@
+body {
+ 
+  background: #fff url(/bg2.png) top center no-repeat;
+  background-size: cover;
+  margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.indexBtns {
+  padding: 0 10px;
+}
+
+.fishIcon {
+  position: relative;
+  height: 60px;
+  width: 60px;
+}
+
+.fishIcon::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%) rotate(30deg);
+  width: 60px;
+  height: 60px;
+  background: url(assets/img/zu.svg) 0 0 no-repeat;
+  background-size: contain;
+}
+
+.fish {
+  background: url(assets/img/zu.svg) center center no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
